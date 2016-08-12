@@ -20,11 +20,12 @@ class Adminyo extends CI_Controller {
 	 */
 	public function index()
 	{
+		$this->load->helper('form');
 		$isi = 'kaoskaosk';
 		$data = array(
 		'isi' => $isi
 		);
-		$this->load->view('admin/editor', $data);
+		$this->load->view('admin/index', $data);
 	}
 	public function getData()
 	{
