@@ -21,6 +21,7 @@ class Home extends CI_Controller {
 	public function index()
 	{
 		$data['navbar']=$this->load->view('parts/navbar','',true);
+		$data['footer']=$this->load->view('parts/footer','',true);
 		$this->load->view('home', $data);
 	}
 }
