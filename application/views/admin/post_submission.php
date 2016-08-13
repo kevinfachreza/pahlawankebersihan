@@ -20,37 +20,31 @@
 </head>
 
 <body>
-	<?php echo $navbar;?>
+ <div class="nav-wrapper">
+ 
+	<ul id="slide-out" class="side-nav fixed indigo darken-2">
+		<li><a href="#!" id="logo"><img src="http://vignette3.wikia.nocookie.net/egamia/images/f/f3/Intel_logo.png/revision/latest?cb=20061005221757"></a></li>
+			<li><a href="<?php echo base_url()?>adminyo/" class="white-text">Tambah Post</a></li>
+			<li><a href="<?php echo base_url()?>adminyo/post_manager" class="white-text">Post Manager</a></li>
+		</ul>
+	<a href="#" id="side-bar-button" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+
+	
+	</div>
 	<main>
 	<div class="section no-pad-bot" id="index-banner">
 		<div class="container">
-		  <h1 class="header center orange-text">Post Blog!</h1>
-			  <div class="row center">
-				<?php echo form_open_multipart('Adminyo/getData');?>
-				<div class="file-field input-field">
-					<div class="btn">
-						<span>Foto Header</span>
-						<input type="file" name="header_post">
-					</div>
-					<div class="file-path-wrapper">
-						<input class="file-path validate" type="text">
-					</div>
-				</div>
-				<input name="title_post" placeholder="Judul Berita" id="judul_berita" type="text" class="validate">
-				<textarea name="content_post"></textarea>
-				<div class="input-field ">
-					<input type="checkbox" name="banner_show" id="test5"/>
-					<label for="test5">Tampilkan di Headline</label>
-				</div>
+			<h1 class="header center orange-text">
+				<?php echo $title;?>
+				<img class="materialboxed center" width="650" src="<?php echo base_url()?>assets/img/post/<?php echo $img;?>">
+			</h1>
+				<div class="row">
 				
-				<div class="input-field ">
-				   <button class="btn waves-effect waves-light orange" type="submit" name="action">Submit
-				<i class="material-icons right">send</i>
-				</button>
+					<?php echo $content;?>
 				</div>
-				
-				</form>
-			  </div>
+				<a href="<?php echo base_url()?>Adminyo/submit_post" class="btn waves-effect waves-light orange">Tampilkan di Website
+					<i class="material-icons right">send</i>
+				</a>
 		</div>
 	</div>
 

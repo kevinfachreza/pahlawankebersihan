@@ -20,14 +20,24 @@
 </head>
 
 <body>
+ 
 	<?php echo $navbar;?>
 	<main>
 	<div class="section no-pad-bot" id="index-banner">
 		<div class="container">
-		  <h1 class="header center orange-text">Post Blog!</h1>
+		  <h1 class="header center orange-text">Edit Post</h1>
 			  <div class="row center">
-				<?php echo form_open_multipart('Adminyo/getData');?>
-				<div class="file-field input-field">
+				<?php
+					foreach($post as $data)
+					{
+						$id=$data->id;
+				?>
+				<?php echo form_open_multipart('Adminyo/updatePost/'.$id);?>
+				
+					<div class="center">
+						<img width="300" src="<?php echo base_url()?>assets/img/post/<?php echo $data->img;?>">
+					</div>
+					<div class="file-field input-field">
 					<div class="btn">
 						<span>Foto Header</span>
 						<input type="file" name="header_post">
@@ -36,20 +46,29 @@
 						<input class="file-path validate" type="text">
 					</div>
 				</div>
-				<input name="title_post" placeholder="Judul Berita" id="judul_berita" type="text" class="validate">
-				<textarea name="content_post"></textarea>
 				<div class="input-field ">
-					<input type="checkbox" name="banner_show" id="test5"/>
+					<input name="title_post" placeholder="Judul Berita" id="judul_berita" type="text" class="validate" value="<?php echo $data->title; ?>">
+				</div>
+				<div class="input-field ">
+					<textarea name="content_post"><?php echo $data->content; ?></textarea>
+				</div>
+				<div class="input-field ">
+					<?php if($data->banner_show==1) {?>
+						<input type="checkbox" name="banner_show" id="test5" checked="checked"/>
+					<?php } else { ?>
+						<input type="checkbox" name="banner_show" id="test5"/>
+					<?php } ?>
 					<label for="test5">Tampilkan di Headline</label>
 				</div>
-				
 				<div class="input-field ">
-				   <button class="btn waves-effect waves-light orange" type="submit" name="action">Submit
-				<i class="material-icons right">send</i>
-				</button>
+					<button class="btn waves-effect waves-light orange" type="submit" name="action">Submit
+						<i class="material-icons right">send</i>
+					</button>
 				</div>
-				
-				</form>
+					
+				</form><?php 
+				$this->session->img = $data->img;
+				} ?>
 			  </div>
 		</div>
 	</div>
