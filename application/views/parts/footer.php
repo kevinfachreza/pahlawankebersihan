@@ -1,25 +1,36 @@
-<footer class="page-footer">
+<footer class="page-footer cyan darken-2">
   <div class="container">
     <div class="row">
       <div class="col l6 s12">
-        <h5>Footer Content</h5>
-        <p>You can use rows and columns here to organize your footer content.</p>
+        <h5>Pahlawan Kebersihan</h5>
+        <p>You can use rows and columns here to organize your footer content. Bla bla bla bla bla bla bla. Begini, begitu lalala.</p>
       </div>
-      <div class="col l4 offset-l2 s12">
-        <h5>Links</h5>
-        <ul>
-          <li><a class="grey-text text-darken-2" href="#!">Link 1</a></li>
-          <li><a class="grey-text text-darken-2" href="#!">Link 2</a></li>
-          <li><a class="grey-text text-darken-2" href="#!">Link 3</a></li>
-          <li><a class="grey-text text-darken-2" href="#!">Link 4</a></li>
+      <div class="col l6 s12">
+        <h5>Hubungi Kami:</h5>
+        <div class="row">
+          <div class="col s5">
+            <a class="grey-text text-darken-2" href="#f1"><img width=20px src="<?php echo base_url();?>assets/img/logo/facebook.png">Pahlawan Kebersihan</a>
+          </div>
+          <div class="col s5">
+            <a class="grey-text text-darken-2" href="#f2"><img width=20px src="<?php echo base_url();?>assets/img/logo/instagram.png">Pahlawan Kebersihan</a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s5">
+            <a class="grey-text text-darken-2" href="#f3"><img width=20px src="<?php echo base_url();?>assets/img/logo/whatsapp.png">Pahlawan Kebersihan</a>
+          </div>
+          <div class="col s5">
+            <a class="grey-text text-darken-2" href="#f4"><img width=20px src="<?php echo base_url();?>assets/img/logo/line.png">Pahlawan Kebersihan</a>
+          </div>
+        </div>
+
+          
+          
+          
+          
         </ul>
       </div>
     </div>
   </div>
-  <div class="footer-copyright">
-    <div class="container">
-    <a class="grey-text right" href="#!">More Links</a>
-    <div class="grey-text">© 2014 Copyright Text</div>
-    </div>
-  </div>
+  
 </footer>

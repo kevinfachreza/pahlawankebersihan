@@ -38,13 +38,22 @@ footer.page-footer .footer-copyright {
 }
 
 
+.blog{
+   position: absolute;
+  top: 20%;
+  left: 20%;
+  right: 20%;
+  font-weight: 600;
+}
+
 * { box-sizing: border-box; }
 
 body { font-family: sans-serif; }
 
 .carousel {
   background: black;
-  height: 800px;
+  height: 700px;
+  width: 100%;
 }
 
 .carousel .carousel-isi{
@@ -55,43 +64,58 @@ body { font-family: sans-serif; }
 	top: 0;
 	left: 0;
 }
-@media (min-width: 600px){
+.carousel .carousel-isi .konten{
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  right: 20%;
+}
+
+@media (min-width: 930px){
 	.carousel .carousel-isi h3 {
 	  font-size: 70px;
 	  font-weight: 600;
 	  line-height: 32px;
-	  position: absolute;
-	  top: 30%;
-	  left: 30%;
+	  position: relative;
 	}
 
 	.carousel .carousel-isi p {
 	  font-size: 20px;
-	  position: absolute;
-	  top: 40%;
-	  left: 35%;
+	  position: relative;
+	  top:40px;
+    line-height: 40px;
 	}
+
+  .carousel .carousel-isi .konten{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    right: 20%;
+  }
+
 }
 
-@media (max-width: 600px){
+@media (max-width: 930px){
 	.carousel .carousel-isi h3 {
 	  font-size: 35px;
 	  font-weight: 600;
 	  line-height: 32px;
-	  position: absolute;
-	  top: 30%;
-	  left: 29%;
+	  position: relative;
 	}
 
 	.carousel .carousel-isi p {
 	  font-size: 15px;
-	  position: absolute;
-	  top: 37%;
-	  left: 34%;
+	  position: relative;
+	  top: 40%;
+    line-height: 28px;
 	}
-}
-.carousel .carousel-isi img {
-  opacity: 0.7;
+
+  .carousel .carousel-isi .konten{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    right: 20%;
+  }
 }
 
 .carousel-cell {

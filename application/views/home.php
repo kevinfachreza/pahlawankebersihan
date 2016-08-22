@@ -18,19 +18,26 @@
       <div class="carousel js-flickity">
         
         <div class="carousel-isi">
-          <img src="<?php echo base_url();?>assets/img/slider/dua.jpg">
-          <h3 class="white-text center">First Panel</h3>
-          <p class="white-text">This is your first panel</p>
+          <img src="<?php echo base_url();?>assets/img/slider/dua.jpg" style="opacity:0.7;">
+          <div class="konten center">
+            <h3 class="white-text center">Pahlawan Kebersihan</h3>
+            <p class="white-text">Pahlawan Kebersihan adalah bla bla bla.....</p>
+          </div>
         </div>
           <div class="carousel-isi">
-          <img src="<?php echo base_url();?>assets/img/slider/satu.jpg">
-          <h3 class="white-text center">First Panel</h3>
-          <p class="white-text">This is your first panel</p>
+          <img src="<?php echo base_url();?>assets/img/slider/satu.jpg" style="opacity:0.7;">
+          <div class="konten">
+            <h3 class="white-text center">Cara Pemesanan</h3>
+            <p class="white-text center">1. jadi gini, telpon salah satu kontak yang tersedia dibawah. coba di cek.<br>2. ya gitu, jelaskan keinginan anda gimana<br>3. begitu tuh cara pemesanan kami</p>
+          </div>
         </div>
         <div class="carousel-isi">
-         <img src="<?php echo base_url();?>assets/img/slider/tiga.jpg">
-         <h3 class="white-text center">First Panel</h3>
-          <p class="white-text">This is your first panel</p>
+          <img src="<?php echo base_url();?>assets/img/slider/tiga.jpg" style="opacity:0.7;">
+          <div class="konten center">
+            <h3 class="white-text center">Testimoni</h3>
+            <img class="circle center" style="top:40px; position:relative;" src="<?php echo base_url();?>assets/img/konten/testi.jpg" width=150px;>
+            <p class="white-text center" style="top:20px"><i>"Pahlawan Kebersihan memang nomor satu, sangat bersih dan tiada tara dalam membersihkan kamar kos saya"</i><br>-Michele Zudith</p>
+          </div>
         </div>
       </div>
 
@@ -40,21 +47,34 @@
 
         <div class="container row">
           <div class="section">
-            <h3 class="header">Apa Itu Pahlawan Kebersihan?</h3>
-            <div class="col s12 m5 l3 center">
-              <img width=100% src="<?php echo base_url();?>assets/img/konten/apa.jpg"> 
-            </div>
-            <div class="col s12 m7 l9 center">
-              <p style="text-indent:50px; text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pellentesque urna ac tincidunt ultrices. Nam ut odio vehicula dui pharetra efficitur. Sed vel lectus varius, rhoncus mauris in, ultrices risus. Nulla placerat fermentum velit at laoreet. Ut vitae lectus fermentum, tempus purus ut, placerat tortor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum in congue turpis, sit amet varius sem. Praesent suscipit nibh lorem. Suspendisse eu nibh posuere, malesuada lacus at, suscipit nibh. Sed vestibulum mauris auctor dui tempor elementum. Mauris tempus sit amet quam eget cursus. Maecenas quis iaculis eros. Vestibulum non commodo dui, quis rhoncus enim. Nullam tempor mauris est, at dignissim neque lobortis non. Nam auctor dignissim elit a porta.</p>
+            <h3 class="header center">Apa Itu Pahlawan Kebersihan?</h3>
+            <div class="col s10 m10 l12">
+              <p style="text-align: center;  margin-bottom:20px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <p style="text-align: center; margin-bottom:20px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
           </div>
         </div>
-      <div style="background-color: #b3ffff">
+      <div class="cyan lighten-1 z-depth-1">
         <div class="container row">
           <div class="section">
             <h3 class="header center">Apa Itu Pahlawan Kebersihan?</h3>
             <div class="col s10 m10 l12">
-              <p style="text-align: center;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pellentesque urna ac tincidunt ultrices. Nam ut odio vehicula dui pharetra efficitur. Sed vel lectus varius, rhoncus mauris in, ultrices risus. Nulla placerat fermentum velit at laoreet. Ut vitae lectus fermentum, tempus purus ut, placerat tortor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum in congue turpis, sit amet varius sem. Praesent suscipit nibh lorem. Suspendisse eu nibh posuere, malesuada lacus at, suscipit nibh. Sed vestibulum mauris auctor dui tempor elementum. Mauris tempus sit amet quam eget cursus. Maecenas quis iaculis eros. Vestibulum non commodo dui, quis rhoncus enim. Nullam tempor mauris est, at dignissim neque lobortis non. Nam auctor dignissim elit a porta.</p>
+              <p style="text-align: center;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
           </div>
         </div>
@@ -63,9 +83,9 @@
         <div class="section" style="padding-top:20px;">
           <h3 class="header center">Blog & Promo</h3>
           <a href="#1">
-            <div class="col s12 m4 l4 center">
-              <div class="card blue lighten-3">
-                <img class="circle" src="<?php echo base_url();?>assets/img/post/post1.png" width="60%">
+            <div class="col s12 m4 l4 center ">
+              <div class="card cyan  z-depth-2">
+                <img class="circle" src="<?php echo base_url();?>assets/img/post/17_2016-08-13.jpg" width="60%">
                 <div class="card-content white-text">
                   <p class="promo-caption">Contoh Post</p>
                   <p class="light center">Kalimat pertama atau beberapa karakter pertama dari post.</p>
@@ -75,8 +95,8 @@
           </a>
           <a href="#2">
             <div class="col s12 m4 l4 center">
-              <div class="card blue lighten-3">
-                <img class="circle" src="<?php echo base_url();?>assets/img/post/post1.png" width="60%">
+              <div class="card cyan z-depth-2">
+                <img class="circle" src="<?php echo base_url();?>assets/img/post/17_2016-08-13.jpg" width="60%">
                 <div class="card-content white-text">
                   <p class="promo-caption">Contoh Post</p>
                   <p class="light center">Kalimat pertama atau beberapa karakter pertama dari post.</p>
@@ -86,8 +106,8 @@
           </a>
           <a href="#3">
             <div class="col s12 m4 l4 center">
-              <div class="card blue lighten-3">
-                <img class="circle" src="<?php echo base_url();?>assets/img/post/post1.png" width="60%">
+              <div class="card  cyan z-depth-2">
+                <img class="circle" src="<?php echo base_url();?>assets/img/post/17_2016-08-13.jpg" width="60%">
                 <div class="card-content white-text">
                   <p class="promo-caption">Contoh Post</p>
                   <p class="light center">Kalimat pertama atau beberapa karakter pertama dari post.</p>
@@ -97,6 +117,43 @@
           </a>
         </div>
       </div>
+
+      <div class="cyan lighten-1 z-depth-1">
+        <div class="container row">
+          <div class="section">
+            <h3 class="header center">Apa Itu Pahlawan Kebersihan?</h3>
+            <div class="col s10 m10 l12">
+              <p style="text-align: center;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="container row">
+        <div class="section">
+          <h3 class="header center">Apa Itu Pahlawan Kebersihan?</h3>
+          <div class="col s10 m10 l12">
+            <p style="text-align: center;  margin-bottom:20px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p style="text-align: center; margin-bottom:20px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+        </div>
+      </div>
+
       <?php echo $footer;?>
 
       <!--Import jQuery before materialize.js-->
