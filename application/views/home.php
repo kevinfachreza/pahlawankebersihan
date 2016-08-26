@@ -6,7 +6,7 @@
     }
     else
     {
-      $y=substr($x,3,$length).'...';
+      $y=substr($x,0,$length).'...';
       echo $y;
     }
   }
@@ -180,7 +180,7 @@
               </a>
               <div class="card-content black-text">
                   <div class="card-title promo-caption"><?php echo $rows->title;?></div>
-                <div class="light center"><?php custom_echo($rows->content, 150); ?></div>
+                <div class="light center"><?php custom_echo($rows->content_text, 150); ?></div>
                 <a class="waves-effect waves-light btn"><i class="material-icons right">search</i>selengkapnya</a>
               </div>
             </div>

@@ -10,7 +10,7 @@ class HomeModel extends CI_Model
 
 
 	public function getBannerPost(){
-		$query = $this->db->query("SELECT * FROM POST WHERE banner_show = 1");
+		$query = $this->db->query("SELECT * FROM POST WHERE banner_show = 1 ORDER BY id DESC");
 		return $query->result();
 	}
 }
