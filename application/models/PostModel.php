@@ -56,5 +56,5 @@ class PostModel extends CI_Model
 		return 1;
 	}
 	
-	
+
 }

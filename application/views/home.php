@@ -1,3 +1,19 @@
+<?php 
+  function custom_echo($x, $length){
+    if(strlen($x)<=$length)
+    {
+      echo $x;
+    }
+    else
+    {
+      $y=substr($x,3,$length).'...';
+      echo $y;
+    }
+  }
+
+?>
+
+
 <!DOCTYPE html>
   <html>
     <head>
@@ -18,25 +34,28 @@
       <div class="carousel js-flickity">
         
         <div class="carousel-isi">
-          <img src="<?php echo base_url();?>assets/img/slider/dua.jpg" style="opacity:0.7;  width:100%;">
+          <img src="<?php echo base_url();?>assets/img/slider/dua.jpg">
           <div class="konten center">
-            <h3 class="white-text center">Pahlawan Kebersihan</h3>
+            <h3 class="white-text">Pahlawan Kebersihan</h3>
             <p class="white-text">Pahlawan Kebersihan adalah bla bla bla.....</p>
+            <a class="waves-effect waves-light btn" style="margin-top:30px"><i class="material-icons right">search</i>selengkapnya</a>
           </div>
         </div>
           <div class="carousel-isi">
-          <img src="<?php echo base_url();?>assets/img/slider/satu.jpg" style="opacity:0.7;  width:100%;">
-          <div class="konten">
-            <h3 class="white-text center">Cara Pemesanan</h3>
-            <p class="white-text center">1. jadi gini, telpon salah satu kontak yang tersedia dibawah. coba di cek.<br>2. ya gitu, jelaskan keinginan anda gimana<br>3. begitu tuh cara pemesanan kami</p>
+          <img src="<?php echo base_url();?>assets/img/slider/satu.jpg">
+          <div class="konten center">
+            <h3 class="white-text">Cara Pemesanan</h3>
+            <p class="white-text">1. jadi gini, telpon salah satu kontak yang tersedia dibawah. coba di cek.<br>2. ya gitu, jelaskan keinginan anda gimana<br>3. begitu tuh cara pemesanan kami</p>
+            <a class="waves-effect waves-light btn" style="margin-top:30px"><i class="material-icons right">search</i>selengkapnya</a>
           </div>
         </div>
         <div class="carousel-isi">
-          <img src="<?php echo base_url();?>assets/img/slider/tiga.jpg" style="opacity:0.7;  width:100%;">
+          <img src="<?php echo base_url();?>assets/img/slider/tiga.jpg">
           <div class="konten center">
             <h3 class="white-text center">Testimoni</h3>
-            <img class="circle center" style="top:40px; position:relative;" src="<?php echo base_url();?>assets/img/konten/testi.jpg" width=150px;>
-            <p class="white-text center" style="top:20px"><i>"Pahlawan Kebersihan memang nomor satu, sangat bersih dan tiada tara dalam membersihkan kamar kos saya"</i><br>-Chloë Grace Moretz</p>
+            <img class="circle" style="top:40px; position:relative;" src="<?php echo base_url();?>assets/img/konten/testi.jpg" width=150px;>
+            <p class="white-text" style="top:20px"><i>"Pahlawan Kebersihan memang nomor satu, sangat bersih dan tiada tara dalam membersihkan kamar kos saya"</i><br>-Chloë Grace Moretz</p>
+            <a class="waves-effect waves-light btn" style="margin-top:30px"><i class="material-icons right">search</i>selengkapnya</a>  
           </div>
         </div>
       </div>
@@ -65,48 +84,32 @@
         </div>
       </div>
 
-      <div class="container">
-        <div class="container divider"> 
-        </div>
-      </div>
-
-      <div class="">
-        <div class="container row">
-          <div class="section">
-            <h3 class="header center">Testimonial</h3>
-            <div class="carousel js-flickity  z-depth-2" style="height:400px;">
+      <div class="grey lighten-4 z-depth-1">
+            <h3 class="header center" style="margin-bottom:0px;">Testimonial</h3>
+            <div class="carousel grey lighten-4 js-flickity " style="height:400px;">
               <div class="carousel-isi">
-                <img src="<?php echo base_url();?>assets/img/slider/testi1.png" style="opacity:0.7; width:100%;">
+                
                 <div class="konten center">
-                  <img class="circle" style="top:40px; position:relative;" src="<?php echo base_url();?>assets/img/konten/testi.jpg" width=150px;>
+                  <img class="circle" style="top:0px; position:relative;" src="<?php echo base_url();?>assets/img/konten/testi.jpg" width=150px;>
                   <p class="white-text center" style="top:20px"><i>"Pahlawan Kebersihan memang nomor satu, sangat bersih dan tiada tara dalam membersihkan kamar kos saya"</i><br>-Chloë Grace Moretz</p>
                 </div>
               </div>
               <div class="carousel-isi">
-                <img src="<?php echo base_url();?>assets/img/slider/testi2.jpg" style="opacity:0.7;  width:100%;">
+               
                 <div class="konten center">
-                  
-                  <img class="circle" style="top:40px; position:relative;" src="<?php echo base_url();?>assets/img/konten/testi.jpg" width=150px;>
-                  <p class="white-text center" style="top:20px"><i>"Pahlawan Kebersihan memang nomor satu, sangat bersih dan tiada tara dalam membersihkan kamar kos saya"</i><br>-Chloë Grace Moretz</p>
+                  <img class="circle" style="top:0px; position:relative;" src="<?php echo base_url();?>assets/img/konten/testi.jpg" width=150px;>
+                  <p class="black-text center" style="top:20px"><i>"Pahlawan Kebersihan memang nomor satu, sangat bersih dan tiada tara dalam membersihkan kamar kos saya"</i><br>-Chloë Grace Moretz</p>
                 </div>
               </div>
               <div class="carousel-isi">
                 <img src="<?php echo base_url();?>assets/img/slider/testi3.jpg" style="opacity:0.7;  width:100%;">
                 <div class="konten center">
-                  <img class="circle" style="top:40px; position:relative;" src="<?php echo base_url();?>assets/img/konten/testi.jpg" width=150px;>
+                  <img class="circle" style="top:0px; position:relative;" src="<?php echo base_url();?>assets/img/konten/testi.jpg" width=150px;>
                   <p class="white-text center" style="top:20px"><i>"Pahlawan Kebersihan memang nomor satu, sangat bersih dan tiada tara dalam membersihkan kamar kos saya"</i><br>-Chloë Grace Moretz</p>
                 </div>
               </div>
             </div>
-          </div>
-        </div>
       </div>
-
-      <div class="container">
-        <div class="container divider"> 
-        </div>
-      </div>
-
 
       <div class="">
         <div class="container row">
@@ -140,7 +143,7 @@
                 <img src="<?php echo base_url();?>assets/img/slider/testi1.png" style="opacity:0.7; width:100%;">
                 <div class="konten center">
                  <h3 class="white-text center" style="font-size:35px;">1. Hubungi Pahlawan Kebersihan</h3>
-                  <p class="white-text center" style="top:20px">Pahlawan Kebersihan dapat dihubungi melalui <a href="">facebook</a>, <a href="">line</a>, whatsapp (0899313230).</p>
+                  <p class="white-text center" style="top:20px">Pahlawan Kebersihan dapat dihubungi melalui <a href="#">facebook</a>, <a href="">line</a>, whatsapp (0899313230).</p>
                 </div>
               </div>
               <div class="carousel-isi">
@@ -169,42 +172,22 @@
       <div class="container row" style=" margin-bottom:50px;">
         <div class="section" style="padding-top:20px;">
           <h3 class="header center">Blog & Promo</h3>
-         
-            <div class="col s12 m4 l4 center" >
-              <div class="card grey lighten-4 z-depth-1" >
-                <a href="#1">
-                  <img class="circle" src="<?php echo base_url();?>assets/img/post/17_2016-08-13.jpg" width="60%">
-                </a>
-                <div class="card-content black-text">
-                    <p class="card-title promo-caption">Contoh Post</p>
-                  <p class="light center">Kalimat pertama atau beberapa karakter pertama dari post.</p>
-                  <a class="waves-effect waves-light btn"><i class="material-icons right">search</i>selengkapnya</a>
-                </div>
+          <?php foreach($banner as $rows) { ?>
+          <div class="col s12 m4 l4 center" >
+            <div class="card grey lighten-4 z-depth-1">
+              <a href="#1">
+                <img class="circle"  width="60%"  height=200px  src="<?php echo base_url() . "assets/img/post/" . $rows->img;?>">
+              </a>
+              <div class="card-content black-text">
+                  <div class="card-title promo-caption"><?php echo $rows->title;?></div>
+                <div class="light center"><?php custom_echo($rows->content, 150); ?></div>
+                <a class="waves-effect waves-light btn"><i class="material-icons right">search</i>selengkapnya</a>
               </div>
             </div>
-           <div class="col s12 m4 l4 center ">
-              <div class="card grey lighten-4 z-depth-1">
-                <a href="#2">
-                  <img class="circle" src="<?php echo base_url();?>assets/img/post/17_2016-08-13.jpg" width="60%">
-                </a>
-                <div class="card-content black-text">
-                  <p class="card-title promo-caption">Contoh Post</p>
-                  <p class="light center">Kalimat pertama atau beberapa karakter pertama dari post.</p>
-                  <a class="waves-effect waves-light btn"><i class="material-icons right">search</i>selengkapnya</a>
-                </div>
-              </div>
-            </div> <div class="col s12 m4 l4 center ">
-              <div class="card grey lighten-4 z-depth-1">
-                <a href="#3">
-                  <img class="circle" src="<?php echo base_url();?>assets/img/post/17_2016-08-13.jpg" width="60%">
-                </a>
-                <div class="card-content black-text">
-                    <p class="card-title promo-caption">Contoh Post</p>
-                  <p class="light center">Kalimat pertama atau beberapa karakter pertama dari post.</p>
-                  <a class="waves-effect waves-light btn"><i class="material-icons right">search</i>selengkapnya</a>
-                </div>
-              </div>
-            </div>
+          </div>
+
+          <?php
+            } ?>
         </div>
       </div>
 
