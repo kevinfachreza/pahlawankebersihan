@@ -52,6 +52,7 @@
 				<div class="input-field ">
 					<textarea name="content_post"><?php echo $data->content; ?></textarea>
 				</div>
+					<input type="hidden" name="content_text" value="" id="content_text">
 				<div class="input-field ">
 					<?php if($data->banner_show==1) {?>
 						<input type="checkbox" name="banner_show" id="test5" checked="checked"/>
@@ -61,7 +62,7 @@
 					<label for="test5">Tampilkan di Headline</label>
 				</div>
 				<div class="input-field ">
-					<button class="btn waves-effect waves-light orange" type="submit" name="action">Submit
+					<button class="btn waves-effect waves-light orange" id="submit_post"  type="submit" name="action">Submit
 						<i class="material-icons right">send</i>
 					</button>
 				</div>
@@ -89,6 +90,13 @@
 	$('.carousel').carousel();
 	});
 	$('.carousel.carousel-slider').carousel({full_width: true});
+	
+	
+	$('#submit_post').click(function() {
+			var thought = tinyMCE.activeEditor.getContent({format : 'text'});
+			$('#content_text').val(thought);
+		});
+				
 
 </script>
 </body>

@@ -16,6 +16,7 @@
 		tinymce.init({
 			selector: 'textarea'
 		});
+		
 	</script>
 </head>
 
@@ -38,13 +39,20 @@
 				</div>
 				<input name="title_post" placeholder="Judul Berita" id="judul_berita" type="text" class="validate">
 				<textarea name="content_post"></textarea>
+				
+				
+
+				
+				<input type="hidden" name="content_text" value="" id="content_text">
+
+
 				<div class="input-field ">
 					<input type="checkbox" name="banner_show" id="test5"/>
 					<label for="test5">Tampilkan di Headline</label>
 				</div>
 				
 				<div class="input-field ">
-				   <button class="btn waves-effect waves-light orange" type="submit" name="action">Submit
+				   <button class="btn waves-effect waves-light orange" id="submit_post" type="submit" name="action">Submit
 				<i class="material-icons right">send</i>
 				</button>
 				</div>
@@ -71,6 +79,15 @@
 	});
 	$('.carousel.carousel-slider').carousel({full_width: true});
 
+	
+	
+	$('#submit_post').click(function() {
+			var thought = tinyMCE.activeEditor.getContent({format : 'text'});
+			alert(thought);
+			$('#content_text').val(thought);
+		});
+				
+				
 </script>
 </body>
 </html>

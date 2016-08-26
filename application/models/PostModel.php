@@ -15,6 +15,7 @@ class PostModel extends CI_Model
 			UPDATE post
 			SET title = '".$data['title']."',
 			content = '".$data['content']."',
+			content_text = '".$data['content_text']."',
 			img = '".$data['img']."',
 			banner_show = ".$data['banner']."
 			WHERE id = ".$data['id']."
@@ -25,8 +26,8 @@ class PostModel extends CI_Model
 	public function addPost($data)
 	{
 		$change = $this->db->query
-		("INSERT IGNORE INTO post (title,content,img,banner_show) 
-		VALUES ('".$data['title']."','".$data['content']."',
+		("INSERT IGNORE INTO post (title,content,content_text,img,banner_show) 
+		VALUES ('".$data['title']."','".$data['content']."','".$data['content_text']."',
 		'".$data['img']."',".$data['banner'].")");
 		return 1;
 	}

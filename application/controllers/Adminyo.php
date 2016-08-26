@@ -46,6 +46,7 @@ class Adminyo extends CI_Controller {
 		$id = $id+1;
 		$banner = $this->input->post('banner_show');
 		$content = $this->input->post('content_post');
+		$content_text = $this->input->post('content_text');
 		$title = $this->input->post('title_post');
 		$config['upload_path']   = './assets/img/post/';
 		$new_name = $id;
@@ -78,6 +79,7 @@ class Adminyo extends CI_Controller {
 		$data = array(
 		'title' => $title,
 		'content' => $content,
+		'content_text' => $content_text,
 		'img' => $new_name,
 		'banner' => $banner
 		);
@@ -105,6 +107,7 @@ class Adminyo extends CI_Controller {
 	public function updatePost($id)
 	{
 		$content = $this->input->post('content_post');
+		$content_text = $this->input->post('content_text');
 		$title = $this->input->post('title_post');
 		$banner = $this->input->post('banner_show');
 		$config['upload_path']   = './assets/img/post/';
@@ -144,6 +147,7 @@ class Adminyo extends CI_Controller {
 		$data = array(
 		'title' => $title,
 		'content' => $content,
+		'content_text' => $content_text,
 		'img' => $new_name,
 		'id' => $id,
 		'banner' => $banner
@@ -159,6 +163,7 @@ class Adminyo extends CI_Controller {
 	{
 		$report = $this->PostModel -> deletePost($id);
 		$this->session->set_flashdata('message', 'Post Berhasil Dihapus');
+		tinyMCE.triggerSave();
 		redirect('Adminyo/post_manager');
 	}
 	
