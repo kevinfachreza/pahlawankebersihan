@@ -32,12 +32,21 @@ footer.page-footer{
   max-height: 470px;
 }
 
-.blog{
-   position: absolute;
+.card .card-content {
+  padding: 20px;
+  border-radius: 0 0 2px 2px;
+  padding-top: 0;
+}
+
+
+
+.blog h3{
+  position: absolute;
+  font-size: 80px;
   top: 20%;
   left: 20%;
   right: 20%;
-  font-weight: 600;
+  font-weight: 1000;
 }
 
 * { box-sizing: border-box; }
@@ -45,7 +54,6 @@ footer.page-footer{
 body { font-family: sans-serif; }
 
 .carousel {
-  background: black;
   height: 600px;
   width: 100%;
 }
@@ -65,7 +73,7 @@ body { font-family: sans-serif; }
   right: 20%;
 }
 
-@media (min-width: 930px){
+@media (min-width: 1200px){
 	.carousel .carousel-isi h3 {
 	  font-size: 70px;
 	  font-weight: 600;
@@ -74,7 +82,7 @@ body { font-family: sans-serif; }
 	}
 
 	.carousel .carousel-isi p {
-	  font-size: 20px;
+	  font-size: 23px;
 	  position: relative;
 	  top:40px;
     margin-bottom: 30px;
@@ -94,7 +102,39 @@ body { font-family: sans-serif; }
 
 }
 
-@media (max-width: 930px){
+
+@media (max-width: 1200px) and (min-width: 800px){
+  .carousel .carousel-isi h3 {
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 32px;
+    position: relative;
+  }
+
+  .carousel .carousel-isi p {
+    font-size: 20px;
+    position: relative;
+    top:40px;
+    margin-bottom: 30px;
+    line-height: 40px;
+  }
+
+  .carousel .carousel-isi .konten{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    right: 20%;
+  }
+
+  .carousel .carousel-isi a{
+    position: relative;
+  }
+
+}
+
+
+
+@media (max-width: 800px){
 	.carousel .carousel-isi h3 {
 	  font-size: 35px;
 	  font-weight: 600;
@@ -103,7 +143,7 @@ body { font-family: sans-serif; }
 	}
 
 	.carousel .carousel-isi p {
-	  font-size: 15px;
+	  font-size: 18px;
 	  position: relative;
 	  top: 40%;
     line-height: 28px;

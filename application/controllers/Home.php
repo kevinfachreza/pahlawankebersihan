@@ -29,6 +29,7 @@ class Home extends CI_Controller {
 		$data['navbar']=$this->load->view('parts/navbar','',true);
 		$data['footer']=$this->load->view('parts/footer','',true);
 		$data['banner'] = $this->HomeModel -> getBannerPost();
+		$data['blog'] = $this->HomeModel -> getBlogPost();
 		$this->load->view('home', $data);
 	}
 }

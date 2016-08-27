@@ -18,10 +18,25 @@ class Blog extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
+
+	public function __construct()
+	{
+		parent::__construct();
+		$this->load->model('BlogModel');
+	}
+
 	public function index()
 	{
 		$data['navbar']=$this->load->view('parts/navbar','',true);
 		$data['footer']=$this->load->view('parts/footer','',true);
+		$this->load->view('blog', $data);
+	}
+
+	public function post($nama)
+	{
+		$data['navbar']=$this->load->view('parts/navbar','',true);
+		$data['footer']=$this->load->view('parts/footer','',true);
+		$data['post'] = $this->BlogModel -> getPost($nama);
 		$this->load->view('blog', $data);
 	}
 }
