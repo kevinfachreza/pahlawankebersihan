@@ -15,7 +15,7 @@ body {
     flex: 1 0 auto;
   }
 footer.page-footer{
-	 margin-top: 20px;
+	 margin-top: 0px;
   	padding-top: 20px;
   	background-color:  #333;
 }
@@ -51,12 +51,8 @@ footer.page-footer{
 
 * { box-sizing: border-box; }
 
-body { font-family: sans-serif; }
 
-.carousel {
-  height: 600px;
-  width: 100%;
-}
+
 
 .carousel .carousel-isi{
 	width: 100%;
@@ -231,3 +227,33 @@ body { font-family: sans-serif; }
 .flickity-prev-next-button:disabled {
   display: none;
 }
+
+@font-face {
+    font-family: BebasNeue;
+    src: url(../fonts/BebasNeue.otf);
+}
+
+.title
+{
+    font-family: BebasNeue;
+	letter-spacing: 3px;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+
+.secondary-title{
+	letter-spacing: 3px;
+	text-transform:uppercase;
+	font-weight:thin;
+}
+
+hr {
+  border: 0;
+  clear:both;
+  display:block;
+  width: 30%;               
+  background-color:#000;
+  height: 2px;
+}
+
+

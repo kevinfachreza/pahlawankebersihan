@@ -48,6 +48,10 @@ class Adminyo extends CI_Controller {
 		$content = $this->input->post('content_post');
 		$content_text = $this->input->post('content_text');
 		$title = $this->input->post('title_post');
+		
+		$string = strtolower($title);
+		$slug=preg_replace('/[^A-Za-z0-9-]+/', '-', $string);
+		
 		$config['upload_path']   = './assets/img/post/';
 		$new_name = $id;
 		$new_name.= '_';
@@ -78,6 +82,7 @@ class Adminyo extends CI_Controller {
 		
 		$data = array(
 		'title' => $title,
+		'title_slug' => $slug,
 		'content' => $content,
 		'content_text' => $content_text,
 		'img' => $new_name,
@@ -109,6 +114,9 @@ class Adminyo extends CI_Controller {
 		$content = $this->input->post('content_post');
 		$content_text = $this->input->post('content_text');
 		$title = $this->input->post('title_post');
+		$string = strtolower($title);
+		$slug=preg_replace('/[^A-Za-z0-9-]+/', '-', $string);
+		
 		$banner = $this->input->post('banner_show');
 		$config['upload_path']   = './assets/img/post/';
 		$new_name = $id;
@@ -146,6 +154,7 @@ class Adminyo extends CI_Controller {
 		else $banner = 0;
 		$data = array(
 		'title' => $title,
+		'title_slug' => $slug,
 		'content' => $content,
 		'content_text' => $content_text,
 		'img' => $new_name,

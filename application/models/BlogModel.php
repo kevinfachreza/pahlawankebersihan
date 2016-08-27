@@ -10,8 +10,8 @@ class BlogModel extends CI_Model
 
 
 	public function getPost($data){
-		$data = str_replace("%20"," ",$data);
-		$query = $this->db->query("SELECT * FROM POST WHERE title = '".$data."'");
+		
+		$query = $this->db->query("SELECT * FROM POST WHERE title_slug = '".$data."'");
 		return $query->result();
 	}
 

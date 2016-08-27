@@ -36,7 +36,7 @@
         <div class="carousel-isi" style="object-fit : cover; min-width:100%; min-height:100%; background:black;">
           <img style="width:100%; opacity:0.7;" src="<?php echo base_url() . "assets/img/post/" . $rows->img;?>">
           <div class="konten center">
-            <h3 class="white-text"><?php echo $rows->title;?></h3>
+            <h3 class="white-text title"><?php echo $rows->title;?></h3>
             <p class="white-text"><?php custom_echo($rows->content_text, 300);?></p>
             <a href="<?php echo base_url()."blog/post/".$rows->title; ?>" class="waves-effect waves-light btn" style="margin-top:30px"><i class="material-icons right">search</i>selengkapnya</a>
           </div>
@@ -44,14 +44,12 @@
         <?php }?>
       </div>
 
-
-
-
-
-      <div class="container row" style="margin-top:20px;">
+    <div id="Apa" class="container row" style="margin-top:20px;">
         <div class="section">
-          <h3 class="header center">Apa Itu Pahlawan Kebersihan?</h3>
-          <div class="col s10 m10 l12">
+          <h3 class="header center title">Apa Itu Pahlawan Kebersihan?</h3>
+            
+			<hr>
+          <div class="col s12 m12 l12">
             <p style="text-align: center;  margin-bottom:20px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
             quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -68,37 +66,14 @@
         </div>
       </div>
 
-      <div style="background-image:url(<?php echo base_url();?>assets/img/slider/testi2.jpg);" class="black z-depth-1">
-            <h3 class="header white-text center" style="margin-bottom:0px;">Testimonial</h3>
-            <div class="carousel js-flickity " style="height:400px;">
-              <div class="carousel-isi">
-                
-                <div class="konten center">
-                  <img class="circle" style="top:0px; position:relative;" src="<?php echo base_url();?>assets/img/konten/testi.jpg" width=150px;>
-                  <p class="white-text center" style="top:20px"><i>"Pahlawan Kebersihan memang nomor satu, sangat bersih dan tiada tara dalam membersihkan kamar kos saya"</i><br>-Chloë Grace Moretz</p>
-                </div>
-              </div>
-              <div class="carousel-isi">
-               
-                <div class="konten center">
-                  <img class="circle" style="top:0px; position:relative;" src="<?php echo base_url();?>assets/img/konten/testi.jpg" width=150px;>
-                  <p class="black-text center" style="top:20px"><i>"Pahlawan Kebersihan memang nomor satu, sangat bersih dan tiada tara dalam membersihkan kamar kos saya"</i><br>-Chloë Grace Moretz</p>
-                </div>
-              </div>
-              <div class="carousel-isi">
-                <div class="konten center">
-                 <img class="circle" style="top:0px; position:relative;" src="<?php echo base_url();?>assets/img/konten/testi.jpg" width=150px;>
-                  <p class="white-text center" style="top:20px"><i>"Pahlawan Kebersihan memang nomor satu, sangat bersih dan tiada tara dalam membersihkan kamar kos saya"</i><br>-Chloë Grace Moretz</p>
-                </div>
-              </div>
-            </div>
-      </div>
-
-      <div class="">
-        <div class="container row">
-          <div class="section">
-            <h3 class="header center">Mengapa Pahlawan Kebersihan</h3>
-            <div class="col s10 m10 l12">
+	
+	<div id="Mengapa" class="grey lighten-4">
+	<div class="container row " style="margin-top:10vh;margin-bottom:10vh;">
+        <div class="section">
+            <h3 class="header center title ">Mengapa Pahlawan Kebersihan</h3>
+            
+			<hr>
+            <div class="col s12 m12 l12">
               <p style="text-align: center;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
               tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
               quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -106,20 +81,16 @@
               cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
               proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
-          </div>
         </div>
-      </div>
-
-
-    
-      <div class="amber lighten-3 z-depth-4" style="padding:40px;">
+    </div>
+	</div>
+	
+	<div id="CaraPemesanan" style="padding:40px;">
         <div class="section" >
           <div class="row">
           <div class="col s2">
-            <h3 class="header center" style="margin-top:80px;">Cara Pemesanan</h3>
-            <div class="container">
-              <div class="container divider grey darken-3"></div>
-            </div>
+            <h3 class="header center title" style="margin-top:80px;">Cara Pemesanan</h3>
+			<hr>
           </div>
           <div class="carousel js-flickity col s10" style="height:500px;">
               <div class="carousel-isi">
@@ -155,15 +126,45 @@
           </div>
         </div>
       </div>
-      
-
-      <div class="container row" style=" margin-bottom:50px;">
-        <div class="section" style="padding-top:20px;">
-          <h3 class="header center">Blog & Promo</h3>
+	
+    <div id="Testimonial" style="background-image:url(<?php echo base_url();?>assets/img/slider/testi2.jpg);" class="black z-depth-1">
+            <h3 class="header white-text center title" style="margin-bottom:0px;margin-top:40px;">Testimonial</h3>
+            
+			<hr style=" background-color:white;width:10%;">
+            <div class="carousel js-flickity " style="height:400px; margin-bottom:40px;">
+              <div class="carousel-isi">
+                
+                <div class="konten center">
+                  <img class="circle" style="top:0px; position:relative;" src="<?php echo base_url();?>assets/img/konten/testi.jpg" width=150px;>
+                  <p class="white-text center" style="top:20px"><i>"Pahlawan Kebersihan memang nomor satu, sangat bersih dan tiada tara dalam membersihkan kamar kos saya"</i><br>-Chloë Grace Moretz</p>
+                </div>
+              </div>
+              <div class="carousel-isi">
+               
+                <div class="konten center">
+                  <img class="circle" style="top:0px; position:relative;" src="<?php echo base_url();?>assets/img/konten/testi.jpg" width=150px;>
+                  <p class="black-text center" style="top:20px"><i>"Pahlawan Kebersihan memang nomor satu, sangat bersih dan tiada tara dalam membersihkan kamar kos saya"</i><br>-Chloë Grace Moretz</p>
+                </div>
+              </div>
+              <div class="carousel-isi">
+                <div class="konten center">
+                 <img class="circle" style="top:0px; position:relative;" src="<?php echo base_url();?>assets/img/konten/testi.jpg" width=150px;>
+                  <p class="white-text center" style="top:20px"><i>"Pahlawan Kebersihan memang nomor satu, sangat bersih dan tiada tara dalam membersihkan kamar kos saya"</i><br>-Chloë Grace Moretz</p>
+                </div>
+              </div>
+            </div>
+      </div>
+	  
+	  
+    <div id="Blog" class="grey lighten-4">
+    <div class="container row " style="margin-top:10vh;margin-bottom:10vh;">
+        <div class="section" style="padding-top:0px;">
+          <h3 class="header center title">Blog & Promo</h3>
+		  <hr style="width:10%;margin-bottom:20px;">
           <?php $x=0; foreach($blog as $rows) { ?>
           <div class="col s12 m4 l4 center" >
-            <div class="card grey lighten-4 z-depth-1">
-              <a href="<?php echo base_url()."blog/post/".$rows->title;?>">
+            <div class="  card grey lighten-5 z-depth-1">
+              <a  href="<?php echo base_url()."blog/post/".$rows->title;?>">
                 <img class="card-image circle" style="padding-bottom:0;" width="60%"  height=200px  src="<?php echo base_url() . "assets/img/post/" . $rows->img;?>">
               </a>
               <div class="card-content black-text" style="min-height:150px; max-height:150px;">
@@ -181,6 +182,7 @@
              }} ?>
         </div>
       </div>
+	</div>
 
 
 
