@@ -23,9 +23,7 @@ footer.page-footer{
 .card {
   position: relative;
   margin: 0.5rem 0 1rem 0;
-  background-color: #fff;
-  transition: box-shadow .25s;
-  border-radius: 2px;
+  border-radius: 4px;
   padding-top: 40px;
   padding-bottom: 20px;
   min-height: 470px;
@@ -69,7 +67,7 @@ footer.page-footer{
   right: 20%;
 }
 
-@media (min-width: 1200px){
+@media (min-width: 1000px){
 	.carousel .carousel-isi h3 {
 	  font-size: 70px;
 	  font-weight: 600;
@@ -99,7 +97,7 @@ footer.page-footer{
 }
 
 
-@media (max-width: 1200px) and (min-width: 800px){
+@media (max-width: 1000px) and (min-width: 800px){
   .carousel .carousel-isi h3 {
     font-size: 60px;
     font-weight: 600;
@@ -110,8 +108,8 @@ footer.page-footer{
   .carousel .carousel-isi p {
     font-size: 20px;
     position: relative;
-    top:40px;
-    margin-bottom: 30px;
+    top:20px;
+    margin-bottom: 20px;
     line-height: 40px;
   }
 
@@ -132,17 +130,21 @@ footer.page-footer{
 
 @media (max-width: 800px){
 	.carousel .carousel-isi h3 {
-	  font-size: 35px;
+	  font-size: 40px;
 	  font-weight: 600;
 	  line-height: 32px;
 	  position: relative;
+    margin-bottom: 0;
+    margin-top: 0;
 	}
 
 	.carousel .carousel-isi p {
-	  font-size: 18px;
+	  font-size: 15px;
 	  position: relative;
-	  top: 40%;
+	  top: 10px;
     line-height: 28px;
+    margin-bottom: 0;
+    margin-top: 0;
 	}
 
   .carousel .carousel-isi .konten{
@@ -257,3 +259,65 @@ hr {
 }
 
 
+/*carousel yg cara*/
+@media (min-width: 1000px){
+  .carousel .carousel-isi .row .col h3 {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 32px;
+    position: relative;
+    margin-right: 5%;
+    margin-top: 8%;
+  }
+
+  .carousel .carousel-isi .row .col p {
+    font-size: 20px;
+    position: relative;
+    margin-right: 15%;
+    margin-left: 8%;
+    line-height: 40px;
+  }
+}
+
+
+@media (max-width: 1000px) and (min-width: 390px){
+  .carousel .carousel-isi .row .col h3 {
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 32px;
+    position: relative;
+      margin-right: 5%;
+    margin-top: 8%;
+  }
+
+  .carousel .carousel-isi  .row .col p {
+    font-size: 20px;
+    position: relative;
+    top:20px;
+    margin-top: 8%;
+    margin-right: 15%;
+    margin-left: 8%;
+    line-height: 24px;
+    margin-bottom: 14%
+  }
+}
+
+@media (max-width: 390px){
+  .carousel .carousel-isi .row .col  h3 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px;
+    position: relative;
+    margin-bottom: 10%;
+    margin-top: 0;
+  }
+
+  .carousel .carousel-isi .row .col  p {
+    font-size: 15px;
+    position: relative;
+    top: 10px;
+    line-height: 28px;
+    margin-bottom: 10%;
+    margin-top: 0;
+  }
+}
