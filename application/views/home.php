@@ -34,7 +34,7 @@
       <div class="carousel js-flickity">
         <?php foreach($banner as $rows) { ?>
         <div class="carousel-isi" style="object-fit : cover; min-width:100%; min-height:100%; background:black;">
-          <img style="width:100%; opacity:0.7;" src="<?php echo base_url() . "assets/img/post/" . $rows->img;?>">
+          <img style="width:100%; min-height:100%; object-fit:cover; opacity:0.7;" src="<?php echo base_url() . "assets/img/post/" . $rows->img;?>">
           <div class="konten center">
             <h3 class="white-text title"><?php echo $rows->title;?></h3>
             <p class="white-text"><?php custom_echo($rows->content_text, 150);?></p>
@@ -148,7 +148,7 @@
     </div>
   </div>
 	
-    <div id="Testimonial" style="background-image:url(<?php echo base_url();?>assets/img/slider/testi2.jpg);" class="black z-depth-1">
+    <div id="Testimonial" style="background-image:url(<?php echo base_url();?>assets/img/slider/testi.jpg);" class="black z-depth-1">
             <h3 class="header white-text center title" style="margin-bottom:0px;margin-top:40px;">Testimonial</h3>
             
 			<hr style=" background-color:white;width:10%;">
@@ -164,7 +164,7 @@
                
                 <div class="konten center">
                   <img class="circle" style="top:0px; position:relative;" src="<?php echo base_url();?>assets/img/konten/testi.jpg" width=150px;>
-                  <p class="black-text center" style="top:20px"><i>"Pahlawan Kebersihan memang nomor satu, sangat bersih dan tiada tara dalam membersihkan kamar kos saya"</i><br>-Chloë Grace Moretz</p>
+                  <p class="white-text center" style="top:20px"><i>"Pahlawan Kebersihan memang nomor satu, sangat bersih dan tiada tara dalam membersihkan kamar kos saya"</i><br>-Chloë Grace Moretz</p>
                 </div>
               </div>
               <div class="carousel-isi">

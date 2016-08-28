@@ -17,12 +17,15 @@
 
         <img  width=100% src="<?php echo base_url();?>assets/img/konten/blog.jpg">
         <div class="blog">
-          <h3 class="white-text blog center" style="font-weight:900;"><?php foreach ($post as $rows){ echo $rows->title;?></h3>
+          
         </div>
-        <div class="container center" style="margin-top:40px">
+        <div class="container center" style="margin-top:40px;margin-bottom:50px;">
+			<h3 class="blog center title" style="font-weight:900;"><?php foreach ($post as $rows){ echo $rows->title;?></h3>
+			<hr style="margin-bottom:50px;">
           <img style="margin-bottom:30px" width=70% src="<?php echo base_url().'assets/img/post/'.$rows->img;?>">
           <?php echo $rows->content; break;}?>
         </div>
+		
 
 
       <?php echo $footer;?>
