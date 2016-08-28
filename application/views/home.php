@@ -47,7 +47,7 @@
         <div id="Apa" class="container row " style="margin-top:3%;">
           <div class="section">
             <h3 class="header center title">Apa Itu Pahlawan Kebersihan?</h3>  
-            <hr>
+            <hr style="margin-bottom:4%;">
             <div class="col s12 m12 l12">
               <p style="text-align: center;  margin-bottom:2%;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
               tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -71,9 +71,8 @@
 	<div id="Mengapa" class="">
 	<div class="container row " style="margin-top:4%;margin-bottom:4%;">
         <div class="section">
-            <h3 class="header center title ">Mengapa Pahlawan Kebersihan</h3>
-            
-			<hr>
+            <h3 class="header center title ">Mengapa Pahlawan Kebersihan</h3>   
+			      <hr style="margin-bottom:5%;>
             <div class="col s12 m12 l12">
               <p style="text-align: center;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
               tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -96,40 +95,42 @@
         <div class="carousel-isi">
           <div class="row" >
             <div class="col s5 m4 l2 offset-m1 offset-l1">
-              <img width="90%" style="margin-top:0;" src="<?php echo base_url();?>assets/img/konten/iphone1.png">
+              <img width="92%" style="margin-top:0;" src="<?php echo base_url();?>assets/img/konten/iphone1.png">
             </div>
             <div class="col s7 m7 l8">
               <h3 class="grey-text text-darken-4 center secondary-tittle">1. ADD SALAH SATU AKUN PAHLAWAN KEBERSIHAN</h3>
               <p class="grey-text text-darken-4 center" style="top:10%;">Pahlawan Kebersihan akan datang membantu anda setelah anda menghubungi salah satu akun dibawah ini.</p>
               <div class="row center">
-                <div class="col s3 m3 l2 offset-l2 pull-s9">
-                  <a href="https://www.facebook.com/profile.php?id=100010233344667">
-                    <img width=80% id="fb_cara" style="background:grey; @media (max-width: 390px){width:150%;}" onmouseover="hover('fb_cara')" onmouseleave="out('fb_cara')" src="<?php echo base_url();?>assets/img/logo/facebook1.png">
+                <div class="col s3 m3 l2 offset-l2 pull-s10">
+                  <a href="https://www.facebook.com/profile.php?id=100010233344667" class="waves-effect waves-light modal-trigger">
+                    <img width=50px id="fb_cara" style="background:grey; @media (max-width: 390px){width:150%;}" onmouseover="hover('fb_cara')" onmouseleave="out('fb_cara')" src="<?php echo base_url();?>assets/img/logo/facebook1.png">
                   </a>
                 </div>
-                <div class="col s3 m3 l2 pull-s6">
-                  <a href="https://www.instagram.com/jasabersihkos_rumah/">
-                    <img width=80% style="background:grey;" id="ig_cara" onmouseover="hover('ig_cara')" onmouseleave="out('ig_cara')" src="<?php echo base_url();?>assets/img/logo/instagram1.png">
+                <div class="col s3 m3 l2 pull-s7">
+                  <a href="https://www.instagram.com/jasabersihkos_rumah/" class="waves-effect waves-light modal-trigger">
+                    <img width=50px style="background:grey;" id="ig_cara" onmouseover="hover('ig_cara')" onmouseleave="out('ig_cara')" src="<?php echo base_url();?>assets/img/logo/instagram1.png">
                   </a>
                 </div>
-                <div class="col s3 m3 l2 pull-s3">
-                <a href="https://www.instagram.com/jasabersihkos_rumah/">
-                  <img width=80% style="background:grey;" id="wa_cara" onclick="click()" onmouseover="hover('wa_cara')" onmouseleave="out('wa_cara')" src="<?php echo base_url();?>assets/img/logo/whatsapp1.png">
-                </a>
+                <div class="col s3 m3 l2 pull-s4">
+                  <a class="waves-effect waves-light modal-trigger" href="#modal1" >
+                    <img width=50px style="background:grey;" id="wa_cara" onmouseover="hover('wa_cara')" onmouseleave="out('wa_cara')" src="<?php echo base_url();?>assets/img/logo/whatsapp1.png">
+                  </a>
+
                 </div>
-                <div class="col s3 m3 l2 ">
-                  <a href="https://line.me/ti/p/%40ago0076z">
-                    <img width=80% id="line_cara" style="background:grey;" onmouseover="hover('line_cara')" onmouseleave="out('line_cara')" src="<?php echo base_url();?>assets/img/logo/line1.png">
+                <div class="col s3 m3 l2 pull-s1">
+                  <a href="https://line.me/ti/p/%40ago0076z" class="waves-effect waves-light modal-trigger">
+                    <img width=50px id="line_cara" style="background:grey;" onmouseover="hover('line_cara')" onmouseleave="out('line_cara')" src="<?php echo base_url();?>assets/img/logo/line1.png">
                   </a>
                 </div>
               </div>
             </div>
           </div>
         </div>
+
         <div class="carousel-isi">
           <div class="row" >
             <div class="col s5 m4 l2 offset-m1 offset-l1">
-              <img width="90%" style="margin-top:0;" src="<?php echo base_url();?>assets/img/konten/iphone2.png">
+              <img width="92%" style="margin-top:0;" src="<?php echo base_url();?>assets/img/konten/iphone2.png">
             </div>
             <div class="col s7 m7 l8">
               <h3 class="grey-text text-darken-4 center secondary-tittle">2. HUBUNGI PAHLAWAN KEBERSIHAN</h3>
@@ -138,59 +139,83 @@
           </div>
         </div>
         <div class="carousel-isi">
-          <img src="<?php echo base_url();?>assets/img/slider/testi3.jpg" style="opacity:0.7;  width:100%;">
-          <div class="konten center">
-            <h3 class="grey-text text-darken-4 center" style="font-size:35px;">3. Pahlawan Kebersihan Akan Datang Menyelamatkan Anda</h3>
-            <p class="grey-text text-darken-4 center" style="top:20px">Terima kasih Pahlawan Kebersihan :)</p>
+          <div class="row" >
+            <div class="col s5 m4 l2 offset-m1 offset-l1">
+              <img width="92%" style="margin-top:0;" src="<?php echo base_url();?>assets/img/konten/iphone3.png">
+            </div>
+            <div class="col s7 m7 l8">
+              <h3 class="grey-text text-darken-4 center secondary-tittle">3. PAHLAWAN KEBERSIHAN AKAN MEMBANTU ANDA</h3>
+              <p class="grey-text text-darken-4 center" style="top:10%;">Pahlawan Kebersihan akan segera menuju lokasi anda dan membersihkannya.</p>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
 	
-    <div id="Testimonial" style="background-image:url(<?php echo base_url();?>assets/img/slider/testi.jpg);" class="black z-depth-1">
-            <h3 class="header white-text center title" style="margin-bottom:0px;margin-top:40px;">Testimonial</h3>
-            
-			<hr style=" background-color:white;width:10%;">
-            <div class="carousel js-flickity " style="height:400px; margin-bottom:40px;">
-              <div class="carousel-isi">
-                
-                <div class="konten center">
-                  <img class="circle" style="top:0px; position:relative;" src="<?php echo base_url();?>assets/img/konten/testi.jpg" width=150px;>
-                  <p class="white-text center" style="top:20px"><i>"Pahlawan Kebersihan memang nomor satu, sangat bersih dan tiada tara dalam membersihkan kamar kos saya"</i><br>-Chloë Grace Moretz</p>
-                </div>
-              </div>
-              <div class="carousel-isi">
-               
-                <div class="konten center">
-                  <img class="circle" style="top:0px; position:relative;" src="<?php echo base_url();?>assets/img/konten/testi.jpg" width=150px;>
-                  <p class="white-text center" style="top:20px"><i>"Pahlawan Kebersihan memang nomor satu, sangat bersih dan tiada tara dalam membersihkan kamar kos saya"</i><br>-Chloë Grace Moretz</p>
-                </div>
-              </div>
-              <div class="carousel-isi">
-                <div class="konten center">
-                 <img class="circle" style="top:0px; position:relative;" src="<?php echo base_url();?>assets/img/konten/testi.jpg" width=150px;>
-                  <p class="white-text center" style="top:20px"><i>"Pahlawan Kebersihan memang nomor satu, sangat bersih dan tiada tara dalam membersihkan kamar kos saya"</i><br>-Chloë Grace Moretz</p>
-                </div>
+  <div id="modal1" class="modal" style="z-index: 1003; display: none; opacity: 0; transform: scaleX(0.7); top: 231.386px;">
+    <div class="modal-content">
+      <h4 class="center">PAHLAWAN KEBERSIHAN</h4>
+      <div class="container row center">
+        <div class="col s5 m5 l5">
+          <div class="right">
+            <i class="material-icons small" style="margin-top:40%">phone</i> 
+          </div>
+        </div>
+        <div class="col s7 m7 l7">
+          <div class="left">
+            <h5>08995313230</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <a class="modal-action modal-close waves-effect waves-blue btn-flat ">OK</a>
+    </div>
+  </div>
+
+
+  <div id="Testimonial" style="background-image:url(<?php echo base_url();?>assets/img/slider/testi.jpg);" class="black z-depth-1">
+          <h3 class="header white-text center title" style="margin-bottom:0px;margin-top:3%;">Testimonial</h3>
+		      <hr style=" background-color:white;width:10%;">
+          <div class="carousel js-flickity " style="height:400px; margin-bottom:1%;">
+            <div class="carousel-isi">
+              <div class="konten center">
+                <img class="circle" style="top:0px; position:relative;" src="<?php echo base_url();?>assets/img/konten/testi.jpg" width=150px;>
+                <p class="white-text center" style="top:2%"><i>"Pahlawan Kebersihan memang nomor satu, sangat bersih dan tiada tara dalam membersihkan kamar kos saya"</i><br>-Chloë Grace Moretz</p>
               </div>
             </div>
-      </div>
+            <div class="carousel-isi">
+             
+              <div class="konten center">
+                <img class="circle" style="top:0px; position:relative;" src="<?php echo base_url();?>assets/img/konten/testi.jpg" width=150px;>
+                <p class="white-text center" style="top:2%"><i>"Pahlawan Kebersihan memang nomor satu, sangat bersih dan tiada tara dalam membersihkan kamar kos saya"</i><br>-Chloë Grace Moretz</p>
+              </div>
+            </div>
+            <div class="carousel-isi">
+              <div class="konten center">
+               <img class="circle" style="top:0px; position:relative;" src="<?php echo base_url();?>assets/img/konten/testi.jpg" width=150px;>
+                <p class="white-text center" style="top:2%"><i>"Pahlawan Kebersihan memang nomor satu, sangat bersih dan tiada tara dalam membersihkan kamar kos saya"</i><br>-Chloë Grace Moretz</p>
+              </div>
+            </div>
+          </div>
+    </div>
 	  
 	  
     <div id="Blog" class="grey lighten-4">
-    <div class="container row " style="margin-top:10vh;margin-bottom:10vh;">
+    <div class="container row " style="margin-top:5%;margin-bottom:5%;">
         <div class="section" style="padding-top:0px;">
           <h3 class="header center title">Blog & Promo</h3>
-		  <hr style="width:10%;margin-bottom:20px;">
+		      <hr style="width:10%;margin-bottom:3% ;">
           <?php $x=0; foreach($blog as $rows) { ?>
           <div class="col s12 m12 l4 center" >
             <div class="  card grey lighten-5 z-depth-1">
               <a  href="<?php echo base_url()."blog/post/".$rows->title_slug;?>">
-                <img class="card-image circle" style="padding-bottom:0;" width="60%"  height=200px  src="<?php echo base_url() . "assets/img/post/" . $rows->img;?>">
+                <img class="card-image circle" style="padding-bottom:0;" width="55%"  height=180px  src="<?php echo base_url() . "assets/img/post/" . $rows->img;?>">
               </a>
-              <div class="card-content black-text" style="min-height:150px; max-height:150px;">
+              <div class="card-content black-text" style="min-height:120px; max-height:120px;">
                 <div class="card-title promo-caption"><?php echo $rows->title;?></div>
-                <div class="light center"><?php custom_echo($rows->content_text, 150); ?></div>
+                <div class="light center"><?php custom_echo($rows->content_text, 60); ?></div>
               </div>
               <a href="<?php echo base_url()."blog/post/".$rows->title_slug;?>" class="waves-effect waves-light btn" style="position:relative;"><i class="material-icons right">search</i>selengkapnya</a>
             </div>
@@ -210,10 +235,22 @@
 
 
       <?php echo $footer;?>
-
+     
       <!--Import jQuery before materialize.js-->
       <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
       <script src="<?php echo base_url();?>assets/js/materialize.min.js"></script>
       <script src="<?php echo base_url();?>assets/js/flickity.js"></script>
+      <script type="text/javascript">
+        $(document).ready(function(){
+                  $('.modal-trigger').leanModal({
+                    dismissible: true,
+                    opacity: .2,
+                    in_duration: 300,
+                    out_duration: 200
+                  });
+                  $('#modal1').openModal();
+                  $('#modal1').closeModal();
+                })
+      </script>
     </body>
   </html>
