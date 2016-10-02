@@ -172,7 +172,6 @@ class Adminyo extends CI_Controller {
 	{
 		$report = $this->PostModel -> deletePost($id);
 		$this->session->set_flashdata('message', 'Post Berhasil Dihapus');
-		tinyMCE.triggerSave();
 		redirect('Adminyo/post_manager');
 	}
 	

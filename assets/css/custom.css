@@ -69,18 +69,15 @@ footer.page-footer{
 
 @media (min-width: 1000px){
 	.carousel .carousel-isi h3 {
-	  font-size: 70px;
+	  font-size: 8vh;
 	  font-weight: 600;
-	  line-height: 32px;
+	  line-height: 8vh;
 	  position: relative;
 	}
 
 	.carousel .carousel-isi p {
-	  font-size: 23px;
+	  font-size: 3vh;
 	  position: relative;
-	  top:40px;
-    margin-bottom: 30px;
-    line-height: 40px;
 	}
 
   .carousel .carousel-isi .konten{
@@ -130,9 +127,9 @@ footer.page-footer{
 
 @media (max-width: 800px){
 	.carousel .carousel-isi h3 {
-	  font-size: 40px;
+	  font-size: 30px;
 	  font-weight: 600;
-	  line-height: 32px;
+	  line-height: 30px;
 	  position: relative;
     margin-bottom: 0;
     margin-top: 0;
@@ -142,8 +139,8 @@ footer.page-footer{
 	  font-size: 15px;
 	  position: relative;
 	  top: 10px;
-    line-height: 28px;
-    margin-bottom: 0;
+    line-height: 15px;
+    margin-bottom: 20px;
     margin-top: 0;
 	}
 
@@ -320,4 +317,13 @@ hr {
     margin-bottom: 10%;
     margin-top: 0;
   }
+}
+
+.card .card-content .card-title {
+    line-height: 3vh;
+}
+.card .card-title {
+    font-size: 3vh;
+    font-weight: 300;
+	margin-bottom:2vh;
 }

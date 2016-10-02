@@ -11,7 +11,7 @@ class BlogModel extends CI_Model
 
 	public function getPost($data){
 		
-		$query = $this->db->query("SELECT * FROM POST WHERE title_slug = '".$data."'");
+		$query = $this->db->query("SELECT * FROM post WHERE title_slug = '".$data."'");
 		return $query->result();
 	}
 

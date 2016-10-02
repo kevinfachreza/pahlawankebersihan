@@ -44,17 +44,17 @@ class PostModel extends CI_Model
 	}
 	
 	public function getAllPost(){
-		$query = $this->db->query("SELECT * FROM POST ORDER BY id DESC ");
+		$query = $this->db->query("SELECT * FROM post ORDER BY id DESC ");
 		return $query->result();
 	}
 	
 	public function getPost($id){
-		$query = $this->db->query("SELECT * FROM POST WHERE id = ".$id." ");
+		$query = $this->db->query("SELECT * FROM post WHERE id = ".$id." ");
 		return $query->result();
 	}
 	
 	public function deletePost($id){
-		$query = $this->db->query("DELETE FROM POST WHERE id = ".$id." ");
+		$query = $this->db->query("DELETE FROM post WHERE id = ".$id." ");
 		return 1;
 	}
 	

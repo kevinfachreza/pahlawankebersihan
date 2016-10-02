@@ -14,8 +14,7 @@
 
     <body>
       <?php echo $navbar;?>
-        <img  width=100% src="<?php echo base_url();?>assets/img/konten/blog.jpg">
-        <div class="blog">
+        <div class="blog" style="background-image:url(<?php echo base_url();?>assets/img/konten/blog.jpg);width:100%;height:50vh">
           <h3 class="blog center title grey-text text-lighten-1">BLOG</h3>
         </div>
         <div class="container center" style="margin-top:3%;margin-bottom:5%;">
