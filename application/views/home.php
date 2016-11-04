@@ -23,7 +23,8 @@
       <link type="text/css" rel="stylesheet" href="<?php echo base_url();?>assets/css/materialize.min.css"  media="screen,projection"/>
       <link rel="stylesheet" href="<?php echo base_url();?>assets/css/flickity.css" media="screen">
       <link type="text/css" rel="stylesheet" href="<?php echo base_url();?>assets/css/custom.css"  media="screen,projection"/>
-
+	  <title>Pahlawan Kebersihan - Jasa Bersih Rumah dan Kos</title>
+	  <link rel="icon" type="image/png" href="<?php echo base_url();?>assets/img/logo/logo.png">
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     </head>
@@ -49,18 +50,8 @@
             <h3 class="header center title">Apa Itu Pahlawan Kebersihan?</h3>  
             <hr style="margin-bottom:4%;">
             <div class="col s12 m12 l12">
-              <p style="text-align: center;  margin-bottom:2%;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-              <p style="text-align: center; margin-bottom:2%;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <p style="text-align: center;  margin-bottom:2%;">Merupakan jasa layanan lokal “dari masyarakat untuk masyarakat” yang mengatasi masalah kebersihan rumah, apartemen, kos, perkantoran dan segala hunian. Selain itu, kami juga menyediakan layanan untuk membantu mengangkut barang customer yang berpindah hunian dan layanan mengecat/mendesain interior ruangan</p>
+             
             </div>
           </div>
         </div>
@@ -74,12 +65,7 @@
             <h3 class="header center title ">Mengapa Pahlawan Kebersihan</h3>   
 			      <hr style="margin-bottom:5%;>
             <div class="col s12 m12 l12">
-              <p style="text-align: center;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <p style="text-align: center;">Dengan menggunakan jasa pahlawan kebersihan berarti anda ikut membantu memberdayakan masyarakat yang membutuhkan. Selain itu kami membersikan pelayanan yang premium dengan harga yang minimum</p>
             </div>
         </div>
     </div>
@@ -153,20 +139,7 @@
     </div>
   </div>
 	
-  <div id="modal1" class="modal" style="z-index: 1003; display: none; opacity: 0; transform: scaleX(0.7); top: 231.386px;">
-    <div class="modal-content">
-      <h4 class="center">PAHLAWAN KEBERSIHAN</h4>
-      <div class="container row center">
-        
-        <div class="col s12 m12 l12">
-             <h5><i class="material-icons small" style="padding-top:10px;">phone</i> 08995313230</h5>
-        </div>
-      </div>
-    </div>
-    <div class="modal-footer">
-      <a class="modal-action modal-close waves-effect waves-blue btn-flat ">OK</a>
-    </div>
-  </div>
+  
 
 
   <div id="Testimonial" style="background-image:url(<?php echo base_url();?>assets/img/slider/testi.jpg);" class="black z-depth-1">
@@ -175,23 +148,17 @@
           <div class="carousel js-flickity " style="height:400px; margin-bottom:1%;">
             <div class="carousel-isi">
               <div class="konten center">
-                <img class="circle" style="top:0px; position:relative;" src="<?php echo base_url();?>assets/img/konten/testi.jpg" width=150px;>
-                <p class="white-text center" style="top:2%"><i>"Pahlawan Kebersihan memang nomor satu, sangat bersih dan tiada tara dalam membersihkan kamar kos saya"</i><br>-Chloë Grace Moretz</p>
-              </div>
-            </div>
-            <div class="carousel-isi">
-             
-              <div class="konten center">
-                <img class="circle" style="top:0px; position:relative;" src="<?php echo base_url();?>assets/img/konten/testi.jpg" width=150px;>
-                <p class="white-text center" style="top:2%"><i>"Pahlawan Kebersihan memang nomor satu, sangat bersih dan tiada tara dalam membersihkan kamar kos saya"</i><br>-Chloë Grace Moretz</p>
+                <img class="circle" style="top:0px; position:relative;" src="<?php echo base_url();?>assets/img/konten/testi1.jpg" width=150px;>
+                <p class="white-text center" style="top:2%"><i>"Jasa Pahlawan Kebersihan ini selalu memberikan kenyamanan pelanggannya."</i><br>-Dian Agus S (21), Gresik</p>
               </div>
             </div>
             <div class="carousel-isi">
               <div class="konten center">
-               <img class="circle" style="top:0px; position:relative;" src="<?php echo base_url();?>assets/img/konten/testi.jpg" width=150px;>
-                <p class="white-text center" style="top:2%"><i>"Pahlawan Kebersihan memang nomor satu, sangat bersih dan tiada tara dalam membersihkan kamar kos saya"</i><br>-Chloë Grace Moretz</p>
+                <img class="circle" style="top:0px; position:relative;" src="<?php echo base_url();?>assets/img/konten/testi2.jpg" width=150px;>
+                <p class="white-text center" style="top:2%"><i>"Terima kasih Pahlawan Kebersihan. Saya tidak perlu repot lagi menjaga kebersihan rumah."</i><br>-Natasia, Surabaya</p>
               </div>
             </div>
+           
           </div>
     </div>
 	  
@@ -223,28 +190,10 @@
         </div>
       </div>
 	</div>
-
-
-
-
-
+	
       <?php echo $footer;?>
      
       <!--Import jQuery before materialize.js-->
-      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-      <script src="<?php echo base_url();?>assets/js/materialize.min.js"></script>
-      <script src="<?php echo base_url();?>assets/js/flickity.js"></script>
-      <script type="text/javascript">
-        $(document).ready(function(){
-                  $('.modal-trigger').leanModal({
-                    dismissible: true,
-                    opacity: .2,
-                    in_duration: 300,
-                    out_duration: 200
-                  });
-                  $('#modal1').openModal();
-                  $('#modal1').closeModal();
-                })
-      </script>
+      
     </body>
   </html>

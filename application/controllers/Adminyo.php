@@ -45,8 +45,8 @@ class Adminyo extends CI_Controller {
 		$id = $this->PostModel -> getLastPost();
 		$id = $id+1;
 		$banner = $this->input->post('banner_show');
-		$content = $this->input->post('content_post');
-		$content_text = $this->input->post('content_text');
+		$content = $this->db->escape_str($this->input->post('content_post'));
+		$content_text = $this->db->escape_str($this->input->post('content_text'));
 		$title = $this->input->post('title_post');
 		
 		$string = strtolower($title);
@@ -111,8 +111,9 @@ class Adminyo extends CI_Controller {
 	
 	public function updatePost($id)
 	{
-		$content = $this->input->post('content_post');
-		$content_text = $this->input->post('content_text');
+		
+		$content = $this->db->escape_str($this->input->post('content_post'));
+		$content_text = $this->db->escape_str($this->input->post('content_text'));
 		$title = $this->input->post('title_post');
 		$string = strtolower($title);
 		$slug=preg_replace('/[^A-Za-z0-9-]+/', '-', $string);

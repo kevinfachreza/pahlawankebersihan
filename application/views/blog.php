@@ -7,7 +7,8 @@
       <link type="text/css" rel="stylesheet" href="<?php echo base_url();?>assets/css/materialize.min.css"  media="screen,projection"/>
       <link rel="stylesheet" href="<?php echo base_url();?>assets/css/flickity.css" media="screen">
       <link type="text/css" rel="stylesheet" href="<?php echo base_url();?>assets/css/custom.css"  media="screen,projection"/>
-
+	  <title>Pahlawan Kebersihan - <?php echo $post[0]->title?></title>
+	  <link rel="icon" type="image/png" href="<?php echo base_url();?>assets/img/logo/logo.png">
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     </head>
@@ -23,10 +24,8 @@
           <img style="margin-bottom:6%" width=75% src="<?php echo base_url().'assets/img/post/'.$rows->img;?>">
           <?php echo $rows->content; break;}?>
         </div>
+		
+		
       <?php echo $footer;?>
-      <!--Import jQuery before materialize.js-->
-      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-      <script src="<?php echo base_url();?>assets/js/materialize.min.js"></script>
-      <script src="<?php echo base_url();?>assets/js/flickity.js"></script>
     </body>
   </html>
